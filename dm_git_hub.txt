@@ -1,0 +1,27 @@
+(base) ryadhadj-tahar@MacBook-Air-de-Ryad ~ % [git config --global user.email "ryad31ht@gmail.com" (base) rvadhadi-tahar@MacBook-Air-de-Ryad ~ % mkdir tp1 note [ (base) ryadhadj-tahar@MacBook-Air-de-Ryad ~ % cd tp1 note
+(base) ryadhadj-tahar@MacBook-Air-de-Ryad tp1_note %
+ echo "# Repo_tp1_note" >> README. md git init git add README.md
+git commit -m "first commit" git branch -M main git remote add origin https://github.com/Ryad-ht/Repo_tp1_note.git
+git push -u origin main
+Initialized empty Git repository in /Users/ryadhadj-tahar/tp1_note/.git/ [main (root-commit) 9de94c91 first commit
+1 file changed, 1 insertion (+) create mode 100644 README.m Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 226 bytes | 226.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Ryad-ht/Repo_tp1_note.git
+* [new branch]
+main -> main
+branch 'main' set up to track 'origin/main'. (base) ryadhadj-tahar@MacBook-Air-de-Ryad tp1_note %
+
+
+
+echo "# test01" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/bazizikenza/test01.git
+git push -u origin main
+
+
+
